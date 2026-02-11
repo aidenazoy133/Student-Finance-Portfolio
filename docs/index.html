@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aiden Azoy - Student Finance Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Aiden Azoy</h1>
+            <p class="tagline">High School Student | Finance & Technology</p>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#models">Models</a>
+                <a href="#blog">Blog</a>
+                <a href="#journal">Journal</a>
+                <a href="https://github.com/aidenazoy133/Student-Finance-Portfolio" target="_blank">GitHub</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="about" class="section">
+            <h2>About This Portfolio</h2>
+            <p>
+                I'm a junior in high school passionate about finance and technology. This portfolio showcases 
+                my journey building financial models, applying machine learning to market problems, and 
+                documenting what I learn along the way.
+            </p>
+            <p>
+                <strong>Goals:</strong> Master financial modeling, learn quantitative analysis, and apply 
+                AI/ML to real-world finance problems—all while sharing my learning process with other students.
+            </p>
+        </section>
+
+        <section id="models" class="section">
+            <h2>Financial Models</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>DCF Valuation</h3>
+                    <p>Discounted Cash Flow model for intrinsic valuation. Projects future cash flows and 
+                    discounts them to present value using WACC.</p>
+                    <a href="https://github.com/aidenazoy133/Student-Finance-Portfolio/blob/main/models/dcf_model.py" class="btn" target="_blank">View Code</a>
+                </div>
+                <div class="card">
+                    <h3>Comp Analysis</h3>
+                    <p>Coming soon - Comparable company analysis for relative valuation.</p>
+                    <span class="badge">In Progress</span>
+                </div>
+                <div class="card">
+                    <h3>LBO Model</h3>
+                    <p>Coming soon - Leveraged buyout model for private equity analysis.</p>
+                    <span class="badge">Upcoming</span>
+                </div>
+                <div class="card">
+                    <h3>Portfolio Optimizer</h3>
+                    <p>Coming soon - Mean-variance optimization for portfolio construction.</p>
+                    <span class="badge">Upcoming</span>
+                </div>
+                <div class="card">
+                    <h3>Options Pricing</h3>
+                    <p>Coming soon - Black-Scholes model for options valuation.</p>
+                    <span class="badge">Upcoming</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="ml" class="section">
+            <h2>Machine Learning Projects</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Stock Price Prediction</h3>
+                    <p>LSTM neural network for time series forecasting.</p>
+                    <span class="badge">Upcoming</span>
+                </div>
+                <div class="card">
+                    <h3>Sentiment Analysis</h3>
+                    <p>NLP analysis of earnings calls and financial news.</p>
+                    <span class="badge">Upcoming</span>
+                </div>
+                <div class="card">
+                    <h3>Credit Risk Scoring</h3>
+                    <p>Machine learning model for credit default prediction.</p>
+                    <span class="badge">Upcoming</span>
+                </div>
+                <div class="card">
+                    <h3>Trading Backtester</h3>
+                    <p>Strategy backtesting framework with performance analytics.</p>
+                    <span class="badge">Upcoming</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="section">
+            <h2>Blog Posts</h2>
+            <div class="blog-list">
+                <article class="blog-post">
+                    <h3>Understanding DCF Valuation: The Foundation of Stock Analysis</h3>
+                    <p class="meta">February 11, 2026</p>
+                    <p>DCF stands for Discounted Cash Flow. It's one of the most fundamental valuation 
+                    methods in finance. Learn how to calculate intrinsic value and understand what 
+                    drives stock prices...</p>
+                    <a href="https://github.com/aidenazoy133/Student-Finance-Portfolio/blob/main/blog/posts/01-dcf-valuation-explained.md" class="btn-secondary" target="_blank">Read More →</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="journal" class="section">
+            <h2>Research Journal</h2>
+            <p>Daily market observations, what I'm learning, and fintech companies that catch my attention.</p>
+            <a href="https://github.com/aidenazoy133/Student-Finance-Portfolio/tree/main/journal" class="btn" target="_blank">View Journal Entries</a>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Connect</h2>
+            <p>
+                <a href="https://github.com/aidenazoy133" target="_blank">GitHub</a> | 
+                <a href="mailto:aiden.azoy@example.com">Email</a>
+            </p>
+            <p class="disclaimer">
+                ⚠️ All models and analysis are for educational purposes only. Not financial advice.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Aiden Azoy | Built with Python, ML, and determination</p>
+            <p>Last updated: <span id="last-updated"></span></p>
+        </div>
+    </footer>
+
+    <script>
+        // Display last updated date
+        document.getElementById('last-updated').textContent = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>
