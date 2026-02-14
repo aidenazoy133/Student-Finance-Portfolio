@@ -1,8 +1,8 @@
 # Project Roadmap
 
 ## Phase 1: Financial Models (Weeks 1-5)
-- [ ] Week 1: DCF Valuation Model + Blog Post
-- [ ] Week 2: Comparable Company Analysis + Blog Post
+- [x] Week 1: DCF Valuation Model + Blog Post
+- [x] Week 2: Comparable Company Analysis + Blog Post
 - [ ] Week 3: LBO Model + Blog Post
 - [ ] Week 4: Portfolio Optimizer + Blog Post
 - [ ] Week 5: Options Pricing Calculator + Blog Post
